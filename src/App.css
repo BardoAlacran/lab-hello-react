@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 2%;
 }
 
 .App-logo {
@@ -44,7 +45,7 @@
 .Menu nav {
   display: flex;
   justify-content:space-between;
-  align-items: center;
+  align-items: center; 
 }
 .text {
   color:white;
@@ -56,4 +57,27 @@
 }
 .text p {
   padding-right: 10%;
+}
+.square {
+  display: flex;
+  align-self: start;
+  width: fit-content;
+  padding-left: 2%;
+  padding-right: 2%;
+  background: white;
+  color: black;
+}
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  width: auto;
+}
+.Card article {
+  
+  flex-wrap: wrap;
+  text-align: left;
+  width: 20%;
+  margin-right: 10%;
 }

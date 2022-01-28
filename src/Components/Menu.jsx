@@ -1,6 +1,7 @@
 import ihlogo from '../images/ironhack-logo-xs.png';
 import ihmenu from '../images/menu-top-xs.png';
 
+
 function Menu (){
     return (
         <div className="Menu">
@@ -12,6 +13,9 @@ function Menu (){
                 <h1>Say hello to ReactJS</h1>
                 <p>you will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
             </div>
+            <div className='square'>
+                <p>Awesome!</p>
+            </div>          
         </div>
     )
 }
